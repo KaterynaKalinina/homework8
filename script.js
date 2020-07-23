@@ -34,8 +34,7 @@ const kitchen = {
             if (recipeName.hasOwnProperty(key) && recipeName[key] === this.kettle.ingredients[key]) {
                 continue;
             } else {
-                console.log('There are not enough ingredients');
-                return;
+                return console.log('There are not enough ingredients');
             };
         };
 
